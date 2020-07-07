@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.four {
+        border: 1px solid black;
+        margin: 25px 50px 75px 100px;
+      }
+      div.three {
+        border: 1px solid black;
+        margin: 25px 50px 75px;
+      }
+      div.two {
+        border: 1px solid black;
+        margin: 25px 50px;
+      }
+      div.auto {
+        width:300px;
+        margin: auto;
+      }
+      div.inherit {
+        border: 1px solid red;
+        margin-left: 100px;
+      }
+
+      p.ex1 {
+        margin-left: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>The margin shorthand property - 4 values</h2>
+    <div class="four">This div element has a top margin of 25px, a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.</div>
+    <hr />
+    <div class="three">This div element has a top margin of 25px, a right and left margin of 50px, and a bottom margin of 75px.</div>
+    <hr />
+    <div class="two">This div element has a top and bottom margin of 25px, and a right and left margin of 50px.</div>
+    <hr />
+    <div class="auto">This div will be horizontally centered because it has margin: auto;</div>
+    <hr />
+    <div class="inherit">
+      <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+    </div>
+  </body>
+</html>
